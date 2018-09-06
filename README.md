@@ -6,10 +6,9 @@ Based on our investigation, the commercial security cameras on the current marke
 
 # Introduction
 <img src="/Report/pic/structure.png" width="80%" height="80%">
-The skeleton of CarPet is based on ESP8266 chip. The ESP8266 serves as a bridge between the hardware components and the web server. To generate the full functionality of the automatic house security guard, we aggregated a motion sensor and a camera into a motor robot car. The motor robot car provides the mobility of the camera and the motion sensor. All components are connected to the web server through ESP chips. The web server was implemented by Node.js and run on an Amazon EC2 instance. The web application is developed in HTML and JavaScript.
+The skeleton of CarPet is based on ESP8266 chips. The ESP8266 serves as a bridge between the hardware component and the web server. To generate the full functionality of the automatic house security guard, we aggregated a motion sensor and a camera into a motor robot car. The motor robot car provides the mobility of the camera and the motion sensor. All components are connected to the web server through ESP chips. The web server was implemented by Node.js and run on an Amazon EC2 instance. The web application is developed in HTML and JavaScript.
 
-
-These ESP chips are the heart of CarPet. They provide connectivity to other components. The manufacture model of ESP8266 we using is ESP-12E NodeMCU. CarPet has two ESP8266. One is intergated with the motor robot car. It helps make the car becomes remotely controllable. The other one is intergated with motion sensor to . During research, we found it needs more bandwidth to implement live video streaming. Hence, we replaced ESP8266 with ESP32, a successor to ESP8266, and connected it to the camera.
+These ESP chips are the heart of CarPet. They provide connectivity to other components. The manufacture model of ESP8266 we using is ESP-12E NodeMCU. CarPet has two ESP8266. One is integrated with the motor robot car. It makes the car becomes remotely controllable. The other one is integrated with motion sensor to help send alarms to a server. For the camera component, it needs more bandwidth to upload live video streaming. Hence, we replaced ESP8266 with ESP32, a successor to ESP8266, and integrated it with a camera.
 
 # Demo
 [![Alt text](https://img.youtube.com/vi/NtMm6EnA934/0.jpg)](https://www.youtube.com/watch?v=NtMm6EnA934)
@@ -24,7 +23,7 @@ These ESP chips are the heart of CarPet. They provide connectivity to other comp
 **Camera:** OV7670<br>
 **Motion Sensor:** HC-SR501<br>
 **Car:** 2WD Motor Smart Robot Car<br>
-
+**Car Motor Controller:** L298N H-bridge<br>
 # Contributers
 <a href="https://github.com/kaicl">**_Kai Chieh Liu_**</a> Front-end Design and development, Car case development, Presentation<br>
 <a href="https://github.com/tyeh11">**_Ting-Chi Yeh_**</a> Camera assembly, Camera control development, Backend development<br>
