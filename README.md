@@ -2,7 +2,7 @@
 COEN 315 Team Project
 
 # Background
-Based on our investigation, the commercial security cameras on the current market must be installed on wall or put at a fixed spot, and they only provide limited vision ranges. To monitor the entire house, the customer has to purchase multiple cameras and installs them all around the house. It becomes a waste of time and money when the scale of environment area is large. To solve the problem, our team come up with a solution, CarPet - an automatic house security guard.
+Based on our investigation, the commercial security cameras in the current market must be installed on wall or put at a fixed spot, and they only provide limited vision ranges. To monitor the entire house, the customer has to purchase multiple cameras and installs them all around the house. It becomes a waste of time and money when the scale of environment area is large. To solve the problem, our team come up with a solution, CarPet - an automatic house security guard.
 
 # Introduction
 <img src="/Report/pic/structure.png" width="80%" height="80%">
