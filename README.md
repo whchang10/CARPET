@@ -2,16 +2,16 @@
 CARPET is a remote controllable robot car included a camera which is activated by a motion sensor to enchance your home security.
 
 # Background
-Based on our investigation, the commercial security cameras in the current market must be installed on wall or put at a fixed spot, and they only provide limited vision ranges. To monitor the entire house, the customer has to purchase multiple cameras and installs them all around the house. It becomes a waste of time and money when the scale of environment area is large. To solve the problem, our team come up with a solution, CarPet - an automatic house security guard.
+Based on our investigation, the commercial security cameras in the current market must be installed on wall or put at a fixed spot, and they only provide limited vision ranges. To monitor the entire house, the customer has to purchase multiple cameras and installs them all around the house. It becomes a waste of time and money when the scale of environment area is large. To solve the problem, our team come up with a solution, CARPET - an automatic house security guard.
 
 # Introduction
 <img src="/Report/pic/structure.png" width="80%" height="80%">
-The skeleton of CarPet is based on ESP8266 chips. The ESP8266 serves as a bridge between the hardware component and the web server. To generate the full functionality of the automatic house security guard, we aggregated a motion sensor and a camera into a motor robot car. The motor robot car provides the mobility of the camera and the motion sensor. All components are connected to the web server through ESP chips. The web server was implemented by Node.js and run on an Amazon EC2 instance. The web application is developed in HTML and JavaScript.<br><br>
+The skeleton of CARPET is based on ESP8266 chips. The ESP8266 serves as a bridge between the hardware component and the web server. To generate the full functionality of the automatic house security guard, we aggregated a motion sensor and a camera into a motor robot car. The motor robot car provides the mobility of the camera and the motion sensor. All components are connected to the web server through ESP chips. The web server was implemented by Node.js and run on an Amazon EC2 instance. The web application is developed in HTML and JavaScript.<br><br>
 ESP8266
 <img src="/Report/pic/ESP8266.png" title="ESP8266" width="30%" height="30%">
 ESP32
 <img src="/Report/pic/ESP32.png" title="ESP32"width="30%" height="30%">
-These ESP chips are the heart of CarPet. They provide connectivity to other components. The manufacture model of ESP8266 we adopting is ESP-12E NodeMCU. CarPet has two ESP8266. One is integrated with the motor robot car. It makes the car become remotely controllable. The other one is integrated with motion sensor to help send alarms to a server. For the camera component, it needs more bandwidth to upload live video streaming. Hence, we replaced ESP8266 with ESP32, a successor to ESP8266, and integrated it with a camera.
+These ESP chips are the heart of CARPET. They provide connectivity to other components. The manufacture model of ESP8266 we adopting is ESP-12E NodeMCU. CARPET has two ESP8266. One is integrated with the motor robot car. It makes the car become remotely controllable. The other one is integrated with motion sensor to help send alarms to a server. For the camera component, it needs more bandwidth to upload live video streaming. Hence, we replaced ESP8266 with ESP32, a successor to ESP8266, and integrated it with a camera.
 
 # Demo
 [![Alt text](https://img.youtube.com/vi/NtMm6EnA934/0.jpg)](https://www.youtube.com/watch?v=NtMm6EnA934)
