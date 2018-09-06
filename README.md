@@ -2,6 +2,7 @@
 COEN 315 Team Project
 
 # Background
+Based on our investigation, the commercial security cameras on the current market have to be installed on wall and have limitations on the vision range. To monitor the entire house, the customer has to purchase multiple cameras and installs them all around the house. It becomes a waste of time and money when the scale of environment area is large. To solve the problem, our team come up with a solution, CarPet - a home security robot.
 
 # Features
 
