@@ -18,3 +18,6 @@ COEN 315 Team Project
 **Car:** 2WD Motor Smart Robot Car<br>
 
 # Contributers
+<a href="https://github.com/kaicl">**_Kai Chieh Liu_**</a> Front-end Design and development, Car case development, Presentation<br>
+<a href="https://github.com/tyeh11">**_Ting-Chi Yeh_**</a> Camera assembly, Camera control development, Backend development<br>
+<a href="https://github.com/whchang10">**_Wen-Han Chang_**</a> Car assembly, Car control development, Motion sensor assembly, Motion sensor control development<br>
