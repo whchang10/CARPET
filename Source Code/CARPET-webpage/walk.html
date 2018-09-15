@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Carpet</title>
+  <link rel= "stylesheet" type="text/css" href="assets/css/main.css">
+  <!-- <link rel="icon" type="image/png" href="image/k_icon.ico"> -->
+  <script src="https://use.fontawesome.com/f71732b867.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <header>
+      <nav>
+        <a href="index.html">HOME</a> |
+        <a href="about.html">ABOUT</a> |
+        <a href="team.html">OUR TEAM</a> |
+      </nav>
+      <hr>
+    </header>
+    
+    
+
+    <section class = "screen">
+	  <img class="stream" id="imgA" src="/camera" onload="loadA()"></img>
+	  <img class="stream" id="imgB" style="display: none" onload="loadB()"></img>
+    </section>
+
+    <figure class = "dog_direction">
+      <div id="btn_forward" name="direction" value="forward">F</div>
+      <div id="btn_left" name="direction" value="left">L</div>
+      <div id="btn_right" name="direction" value="right">R</div>
+      <div id="btn_back" name="direction" value="back">B</div>
+      <img id="dog_hand" src="assets/img_w/dog_hand.png">
+      
+    </figure>
+
+
+   <!--  <section id = "direction">
+      <button id="btn_forward" name="direction" value="forward">FORWARD</button>
+      <button id="btn_right" name="direction" value="right">RIGHT</button>
+      <button id="btn_left" name="direction" value="left">LEFT</button>
+      <button id="btn_back" name="direction" value="back">BACK</button>
+    </section>
+
+     <section id = "direction">
+      <button id="btn_forward"><a href="/forward">FORWARD</a></button>
+      <button id="btn_right"><a href="/right">RIGHT</a></button>
+      <button id="btn_left"><a href="/left">LEFT</a></button>
+      <button id="btn_back"><a href="/back">BACK</a></button>
+    </section>
+ -->
+
+
+    <section>
+      <h2 id="result"></h2>
+    </section>
+
+  <div class="end">
+    
+   
+    <hr>
+    <footer>
+
+      <p><i class="fa fa-copyright" aria-hidden="true"></i>Team Carpet</p>
+    </footer>
+  </div>
+
+ </div>
+
+
+
+  <script src="assets/js/walk.js"></script>
+</body>
+</html>

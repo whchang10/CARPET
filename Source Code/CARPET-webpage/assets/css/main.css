@@ -1,0 +1,175 @@
+body{
+  font-family: 'Ubuntu Mono', monospace;
+  background-size: cover;
+  background-position: center;
+  /*font-family: Lato;*/
+  color: white;
+  background-color: rgb(105,100,98);
+  
+  height: 800px;
+}
+html{
+  height: 100%;
+}
+
+.container{
+  width: 700px;
+  margin: auto;
+}
+#dog_sleep{
+    padding: 0;
+    margin-top: 200px;
+    display: block;
+    max-height: 100%;
+    max-width: 700px;
+}
+
+#dog_up{
+    padding: 0;
+    margin-top: 50px;
+    margin-left: 100px;
+    display: block;
+    max-width: 570px;
+}
+#content_dog{
+  width: 400px;
+  height: 400px;
+
+  display: inline-block;
+}
+
+
+#content{
+  text-align: left;
+  width: 400px;
+  height: 400px;
+
+  display: inline-block;
+  margin-left: 300px;
+  padding: 0 0 20px 0;
+}
+
+
+
+#art_title{
+  text-align: right;
+  display: inline-block;
+  margin-left: 100px;
+}
+
+
+.screen{
+  border: solid 1px white;
+  width: 400px;
+  height: 300px;
+  margin-left: 25%;
+}
+
+hr{
+  width: 100%;
+
+  /*create shadow for the line */
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+button {
+  font-family: 'Ubuntu Mono', monospace;
+  display: inline-block;
+
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  width: 20%;
+  height: 40%;
+
+  background: white;
+  padding: 10px 5px;
+  border: 2px solid #bababa;
+  color: #bababa;
+
+  border-radius:0;
+  margin: 10px;
+}
+
+button a{
+  background-color: #bababa;
+  color: white;
+}
+button:hover{
+  background-color: #bababa;
+}
+footer{
+  color: rgb(231, 231, 231);
+  text-align: right;
+}
+
+a{
+  text-decoration: none;
+  color: #bababa;
+}
+
+.end{
+  position: fixed;
+  bottom: 0px;
+  width: 700px;
+}
+.ww{
+  display: none;
+  position: absolute;
+  z-index: 2;
+}
+#w:hover{
+  text-decoration: underline;
+
+}
+
+.dog_direction{
+  height: 300px;
+  width: 400px;
+  
+  margin-left: 25%;
+  position: relative;
+  text-align: center;
+  font-size: 2em;
+  color: #bababa;
+}
+
+#btn_forward, #btn_back{
+  
+  height: 98px;
+  width: 100%;
+  position: absolute;
+  
+}
+
+#btn_right, #btn_left{
+  top: 33%;
+  
+  height: 99px;
+  width: 50%;
+  position: absolute;
+}
+#btn_back{
+  bottom: 0;
+ 
+}
+#btn_right{
+  right: 0;
+}
+
+#dog_hand{
+  height: 100%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+ 
+  z-index: -1;
+}
+
+.stream {
+	width: 100%;
+	height: 100%;
+}
