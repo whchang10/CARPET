@@ -1,5 +1,5 @@
 # CARPET 
-CARPET is a remote controllable robot car included a camera which is activated by a motion sensor to enchance your home security.
+CARPET is a remote controllable robot car intergrated a camera which is activated by a motion sensor to enchance your home security.
 
 # Background
 Based on our investigation, the commercial security cameras in the current market must be installed on wall or put at a fixed spot, and they only provide limited vision ranges. To monitor the entire house, a customer has to purchase multiple cameras and install them all around the house. It becomes a waste of time and money when the scale of environment area is large. To solve the problem, our team come up with a solution, CARPET - an automatic house security guard.
