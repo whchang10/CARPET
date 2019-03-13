@@ -15,7 +15,7 @@ These ESP chips are the heart of CARPET. They provide connectivity to other comp
 
 # Demo
 [![Alt text](https://img.youtube.com/vi/NtMm6EnA934/0.jpg)](https://www.youtube.com/watch?v=NtMm6EnA934)
-# Technology
+# Technologies
 **Software**<br>
 **Language:** C, Javascript, HTML, CSS<br>
 **Library:** ESP8266 libraries, jQuery<br>
