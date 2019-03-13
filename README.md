@@ -11,7 +11,7 @@ ESP8266
 <img src="/Report/pic/ESP8266.png" title="ESP8266" width="30%" height="30%">
 ESP32
 <img src="/Report/pic/ESP32.png" title="ESP32"width="30%" height="30%">
-These ESP chips are the heart of CARPET. They provide connectivity to other components. The manufacture model of ESP8266 we adopting is ESP-12E NodeMCU. CARPET has two ESP8266. One is integrated with the motor robot car. It makes the car become remotely controllable. The other one is integrated with a motion sensor to help send alarms to the server. For the camera component, it needs more bandwidth to upload live streaming video. Hence, we replaced ESP8266 with ESP32, a successor to ESP8266.
+These ESP chips are the heart of CARPET. They provide connectivity to other components. The manufacture model of ESP8266 we adopt is ESP-12E NodeMCU. CARPET has two ESP8266. One is integrated with the motor robot car. It makes the car become remotely controllable. The other one is integrated with a motion sensor to help send alarms to the server. For the camera component, it needs more bandwidth to upload live streaming video. Hence, we replaced ESP8266 with ESP32, a successor to ESP8266.
 
 # Demo
 [![Alt text](https://img.youtube.com/vi/NtMm6EnA934/0.jpg)](https://www.youtube.com/watch?v=NtMm6EnA934)
