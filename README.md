@@ -20,6 +20,7 @@ These ESP chips are the heart of CARPET. They provide connectivity to other comp
 **Language:** C, Javascript, HTML, CSS<br>
 **Library:** ESP8266 libraries, jQuery<br>
 **Framework:** Node.js, Apache2, PhoneGap<br>
+**Platform:** AWS<br>
 
 **Hardware**<br>
 **Chip:** ESP8266, ESP32<br>
