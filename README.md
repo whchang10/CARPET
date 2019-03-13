@@ -1,5 +1,5 @@
 # CARPET 
-CARPET is a remote controllable robot car intergrated a camera which is activated by a motion sensor to enchance your home security.
+CARPET is a remote controllable robot car integrated a camera which is activated by a motion sensor to enhance your home security.
 
 # Background
 Based on our investigation, the commercial security cameras in the current market must be installed on wall or put at a fixed spot. They only provide limited vision ranges. To monitor the entire house, a customer has to purchase multiple cameras and install them all around the house. It becomes a waste of time and money when the scale of environment area is large. To solve the problem, our team come up with a solution, CARPET - an automatic house security guard.
@@ -28,7 +28,7 @@ These ESP chips are the heart of CARPET. They provide connectivity to other comp
 **Motion Sensor:** HC-SR501<br>
 **Car:** 2WD Motor Smart Robot Car<br>
 **Car Motor Controller:** L298N H-bridge<br>
-# Contributers
+# Contributors
 <a href="https://github.com/kaicl">**_Kai Chieh Liu_**</a> Front-end Design and development, Car case development, Presentation<br>
 <a href="https://github.com/tyeh11">**_Ting-Chi Yeh_**</a> Camera assembly, Camera control development, Backend development<br>
 <a href="https://github.com/whchang10">**_Wen-Han Chang_**</a> Car assembly, Car control development, Motion sensor assembly, Motion sensor control development<br>
